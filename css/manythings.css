@@ -1,9 +1,6 @@
 body {
-    color: rgb(65, 183, 157);
+    color: white;
     background: rgb(84, 227, 196);
-    font-family:"FS Dillon Medium", sans-serif; font-size-adjust:0.49;
-    font-weight:500;
-    font-style:normal;
 }
 
 h1 {
@@ -15,13 +12,9 @@ h5 {
 }
 
 a {
-    color: white;
+    color: rgb(244, 242, 113);
 }
 
 h1, h5 {
   margin-bottom: 5px;
-}
-
-.wf-loading body {
-    visibility: hidden;
 }
