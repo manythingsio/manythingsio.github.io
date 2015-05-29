@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
@@ -21,11 +20,26 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/manythings.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png" />
 
+  <!-- FontDeck -->
+  <script type="text/javascript">
+    WebFontConfig = { fontdeck: { id: '56935' } };
+
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
 </head>
 <body>
 
@@ -33,8 +47,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Many Things</h4>
+      <div class="one-half column" style="margin-top: 20%">
+        <h1>Many Things</h1>
+        <h5>iOS Consultancy and Product Development</h5>
         <p>say <a href="mailto:hello@manythings.io">hello@manythings.io</a></p>
       </div>
     </div>
