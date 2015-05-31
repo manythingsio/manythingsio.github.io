@@ -44,3 +44,19 @@ input[type="email"]:focus {
   border-color: rgb(65, 183, 157);
   border-width: 3px;
 }
+
+.logo {
+  text-indent: -4000px;
+  background-image: url(../images/manythings.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 45%;
+  height: 0;
+}
+
+@media (min-width: 650px) {
+  .logo {
+    width: 50%;
+    padding-bottom: 21%;
+  }
+}
