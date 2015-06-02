@@ -47,7 +47,9 @@ input[type="email"]:focus {
 }
 
 .logo {
-  text-indent: -4000px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
   background-image: url(../images/manythings.png);
   background-size: 100%;
   background-repeat: no-repeat;
